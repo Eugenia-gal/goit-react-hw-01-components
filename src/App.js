@@ -22,6 +22,7 @@ function App() {
           stats={user.stats}
         />
         <Statistics title="Upload stats" stats={statsData} />
+        {/* Для проверки правильного рендера заголовка - закомментировать строку 24, раскомментировать строку 26 */}
         {/* <Statistics stats={statsData} /> */}
         <FriendList friends={friends} />
         <TransactionHistory transactions={transactions} />
