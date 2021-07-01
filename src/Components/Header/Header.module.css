@@ -1,0 +1,14 @@
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: #fff;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.page {
+  font-size: 18px;
+}

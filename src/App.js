@@ -13,17 +13,19 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Profile
-        name={user.name}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />
-      <Statistics title="Upload stats" stats={statsData} />
-      <Statistics stats={statsData} />
-      <FriendList friends={friends} />
-      <TransactionHistory transactions={transactions} />
+      <div className="wrapper">
+        <Profile
+          name={user.name}
+          tag={user.tag}
+          location={user.location}
+          avatar={user.avatar}
+          stats={user.stats}
+        />
+        <Statistics title="Upload stats" stats={statsData} />
+        {/* <Statistics stats={statsData} /> */}
+        <FriendList friends={friends} />
+        <TransactionHistory transactions={transactions} />
+      </div>
     </div>
   );
 }

@@ -1,14 +1,13 @@
 import React from 'react';
+import s from './Header.module.css';
 
 const Header = () => {
   return (
-    <header className="header">
-      <h1 className="title">Трастовый фонд "Рога и Копыта"</h1>
-      <p className="slogan">Зарой деньги в землю!</p>
-      <p className="description">
-        Основной вид деятельности – финансирование агропромышленного комплекса и
-        сельскохозяйственного сектора.
-      </p>
+    <header className={s.header}>
+      <h1 className={s.title}>
+        Agricultural Fund "Horns and Hooves" - Bury money in the ground!
+      </h1>
+      <h2 className={s.page}>Investor's personal account</h2>
     </header>
   );
 };
